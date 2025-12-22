@@ -4,7 +4,9 @@ const userRouter = require('./routes/user.routes');
 const app = express();
 
 app.set("view engine","ejs");
-
+app.use(express.static("public"));
+app.use(express.json());
+app.use(express.urlencoded({extended:true}));
 app.use("/user",userRouter);
 
 app.listen(3000,()=> {

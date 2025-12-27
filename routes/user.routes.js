@@ -73,6 +73,6 @@ router.post('/login',
         );
         res.cookie('token',token);
         res.send("Logged In");
-})
+});
 
 module.exports = router;

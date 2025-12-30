@@ -63,3 +63,9 @@ button a{
 #login:hover{
     background-color: hsl(0, 0%, 98%);
 }
+
+/* Style for upload.ejs */
+
+#file{
+    padding:10px 20px;
+}

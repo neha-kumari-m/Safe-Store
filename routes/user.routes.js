@@ -72,7 +72,8 @@ router.post('/login',
             process.env.JWT_SECRET
         );
         res.cookie('token',token);
-        res.send("Logged In");
+        res.send("Logged IN");
 });
+
 
 module.exports = router;

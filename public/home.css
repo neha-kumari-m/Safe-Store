@@ -64,6 +64,30 @@ button a{
     background-color: hsl(0, 0%, 98%);
 }
 
+#upload{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#view{
+    margin-top: 10px;
+    background-color: hsl(120, 100%, 25%);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 3s ease-in;
+}
+
+#view a {
+    font-size: 16px;
+    color:white;
+}
+
+#view:hover{
+    background-color: hsl(120,100%, 30%);
+    transition: 3s ease-out;
+}
+
 /* Style for upload.ejs */
 
 #file{

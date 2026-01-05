@@ -10,8 +10,14 @@
     <div id="container">
       <div id="content">
         <h1>Upload Your File</h1>
-        <p>Select the File you want to upload:</p>
-        <input type="file" id="file" name="file" />
+        <form action="/upload" method="post" enctype="multipart/form-data">
+          <p>Select the File you want to upload:</p>
+          <input type="file" id="file" name="file" />
+          <button id="upload">Upload</button>
+          <button id="view">
+            <a href="/view">View Your Uploaded Files</a>
+          </button>
+        </form>
       </div>
     </div>
   </body>
